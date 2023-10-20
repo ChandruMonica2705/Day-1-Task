@@ -1,0 +1,11 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+ =>HTTP1.1
+     a) It is very slow compared with HTTP2 since it doesnot prioritize the contents and affects the webpage load time.
+     b) It loads the resources one after other hence it blocks the upcoming resources.
+     c) It gives the content only if the client asks,so it requires lot of request.
+     d) HTTP1.1 makes header compression to speed up web performance.
+ =>HTTP2
+     a) HTTP2 gives a feature called weighted prioritization makes the resources to load faster.
+     b) It uses single TCP connection that performs multiplexing without blocking any resource.
+     c) HTTP2 uses "push" operation that lets the client to access multiple resources.
+     d) It uses advanced compression method called HPACK which eliminates redundant header packets and improves the web performance.

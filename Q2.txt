@@ -1,0 +1,10 @@
+Write a blog about objects and its internal representation in Javascript
+ Object:-
+        Objects in javascript is defined as an unordered properties of related data.for example,if our object is a table it will have properties like height,weight,color etc.,
+
+  Its Internal Representation:-
+          => Objects usually contains variables and functions which are called properties and methods.
+          => Example of property:-
+                          var table={model:round};
+          => Example of method:-
+                          table.model.round;
